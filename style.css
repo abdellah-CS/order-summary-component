@@ -1,0 +1,150 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.card {
+    width: 400px; 
+    height: auto;
+    border: 0px;
+    position: relative;
+    bottom: 27em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 900;
+}
+
+.music {
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+    padding: 5% 5% 0% 5%;
+    margin-bottom: 9%;
+}
+
+.change {
+    font-weight: 700;
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+}
+
+.change:hover {
+    text-decoration: none;
+    color: #9f7ceb;
+}
+
+.card-text {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    line-height: 1.5;
+}
+
+.music .card-text {
+    position:relative; 
+    bottom: 18px; 
+    right: 47px;
+}
+
+.music .first {  
+    font-weight: 900; 
+    padding-right: 32%; 
+    padding-left: 1.5%; 
+    position: relative;
+    bottom: 10px;
+    left: 12px;
+}
+
+.btn {
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: hsl(245, 75%, 52%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    margin-bottom: 9%;
+}
+  
+.btn:hover {
+    background-color: #9f7ceb;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn2 {
+    border-radius: 10px;
+    border: 0px;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+  
+.btn2:hover {
+    text-decoration: none;
+    color: #000;
+}  
+
+
+@media(max-width:1650px) {
+    .card {
+        position: relative;
+        bottom: 5em;
+    }
+}
+
+@media(max-width: 462px)
+{
+    .card {
+        width: 340px;
+    }
+
+    .music .first {
+        padding-right: 20%;
+        position: relative;
+        bottom: 9px;
+        left: 5px;
+    }
+
+    .music .card-text {
+        bottom: 20px;
+        right: 26px;
+    }
+}
+
+@media(max-width: 400px)
+{
+    .card {
+        width: 305px;
+    }
+
+    .music {
+        padding: 3% 2% 0% 0%;     
+    }
+
+    .music .first {
+        left: 7px;
+    }
+
+    .music .change {
+        position: relative;
+        right: 7px;
+    }
+
+    .music .card-text {
+        right: 24px;
+    }    
+
+    .music img {
+        bottom: 0.5px;
+        left: 5px;
+    }
+}
